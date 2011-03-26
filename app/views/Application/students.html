@@ -1,0 +1,6 @@
+#{extends 'main.html' /}
+
+#{table students, as: 'student', rowClass: 'item'}
+  #{column 'Student', class: 'strong'}${student.name}#{/column}
+  #{column 'Lessons'}${student.lessons.size()}#{/column}
+#{/table}

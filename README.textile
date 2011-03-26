@@ -1,0 +1,3 @@
+h1. DataView sample Play! application
+
+See the "dataview module":julienrf/play-dataview for more information.

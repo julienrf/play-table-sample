@@ -1,0 +1,56 @@
+Teacher(t1):
+    name: Hubert Reeves
+
+Teacher(t2):
+    name: Jack Wilmore
+
+Teacher(t3):
+    name: Joseph Stiglitz
+
+Lesson(l1):
+    name: Astronomy
+    teacher: t1
+
+Lesson(l2):
+    name: Biology
+    teacher: t2
+
+Lesson(l3):
+    name: Physics
+    teacher: t2
+
+Lesson(l4):
+    name: Economy
+    teacher: t3
+
+Student(s1):
+    name: John Doe
+    lessons: [l1, l2, l3]
+
+Student(s2):
+    name: Jean Dupont
+    lessons: [l3, l4]
+
+Student(s3):
+    name: Ivan Horvat
+    lessons: [l1, l4]
+
+Student(s4):
+    name: Jaan Tamm
+    lessons: [l2]
+
+Student(s5):
+    name: Juan Pérez
+    lessons: [l3, l4]
+
+Student(s6):
+    name: Folani
+    lessons: [l1, l3]
+
+Student(s7):
+    name: Somchai
+    lessons: [l2, l3, l4]
+
+Student(s8):
+    name: Mario Rossi
+    lessons: [l1, l3]
