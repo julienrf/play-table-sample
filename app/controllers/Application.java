@@ -27,4 +27,10 @@ public class Application extends Controller {
         List<Object> empty = new ArrayList<Object>();
         render(empty);
     }
+
+    public static void badList() {
+        List<String> badModels = new ArrayList<String>();
+        badModels.add("foo");
+        render(badModels);
+    }
 }
